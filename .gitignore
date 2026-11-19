@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.eggs/
+*.egg-info/
+build/
+dist/
+
+# Окружения
+.venv/
+venv/
+env/
+
+# База и служебные файлы
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Секреты
+.env
+.env.local
+
+# Логи и данные
+logs/
+*.log
+data/
+models/
+*.csv
+*.xlsx
+
+# Тесты
+.pytest_cache/
+pytest-cache-files-*/
+tests/.ami_tests_*/
+
+# Резервные копии БД
+*.db.bak*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
