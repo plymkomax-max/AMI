@@ -1,0 +1,6 @@
+# AMI — PostgreSQL
+# Установить вместе с базовыми зависимостями:
+#   python -m pip install -r requirements-postgres.txt
+# Затем в .env: AMI_DATABASE_URL=postgresql+asyncpg://user:pass@127.0.0.1:5432/ami
+-r requirements.txt
+asyncpg>=0.29

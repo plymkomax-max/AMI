@@ -1,0 +1,46 @@
+# AMI - Python / Backend
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Env files
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# ML models
+models/
+*.model
+*.bin
+*.joblib
+
+# Data
+data/
+*.csv
+*.xlsx
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

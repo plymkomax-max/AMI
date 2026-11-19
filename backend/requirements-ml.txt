@@ -1,0 +1,8 @@
+# AMI — ML (этап 6)
+# Ставить только когда действительно нужны модели:
+#   python -m pip install -r requirements-ml.txt
+-r requirements.txt
+pandas>=2.1
+scikit-learn>=1.4
+# CatBoost тяжёлый (~100 МБ), включать при обучении:
+# catboost>=1.2
